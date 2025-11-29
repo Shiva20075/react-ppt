@@ -31,6 +31,14 @@ import { DensitySep1 } from "./components/DensitySep/Slide1";
 import { DensitySep2 } from "./components/DensitySep/Slide2";
 import { DensitySep3 } from "./components/DensitySep/Slide3";
 
+//conclusion
+import { Conclusion1 } from "./components/conclusion/Slide1";
+import { Conclusion2 } from "./components/conclusion/Slide2";
+import { Conclusion4 } from "./components/conclusion/Slide4";
+import { Conclusion5 } from "./components/conclusion/Slide5";
+import { Conclusion6 } from "./components/conclusion/Slide6";
+import { Conclusion7 } from "./components/conclusion/Slide7";
+
 
 
 function App() {
@@ -65,6 +73,13 @@ function App() {
         <DensitySep1 />
         <DensitySep2 />
         <DensitySep3 />
+
+        <Conclusion1 />
+        <Conclusion2 />
+        <Conclusion4 />
+        <Conclusion5 />
+        <Conclusion6 />
+        <Conclusion7 />
       </RevealProvider>
     </div>
   );
