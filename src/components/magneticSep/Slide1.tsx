@@ -10,17 +10,18 @@ export const MagneticSepSlide1 = () => {
         <div className="tech-circle tech-circle-1"></div>
         <div className="tech-circle tech-circle-2"></div>
 
-        {/* Header - moved to top-left */}
+        {/* Header */}
         <div className="px-16 pt-16">
           <h1 className="section-title text-4xl pt-16 text-blue-200 font-bold">
             Magnetic Separation
           </h1>
         </div>
 
-        {/* Points Section - centered, shifted left */}
-        <div className="flex flex-1 items-center">
-          <div className="grid grid-cols-1 gap-6 w-full max-w-4xl ml-24">
+        {/* Content Row */}
+        <div className="flex flex-1 items-center justify-between px-16">
 
+          {/* Points */}
+          <div className="grid grid-cols-1 gap-6 max-w-4xl ml-16">
             <div className="advantage-card p-6 rounded-lg delay-100 w-[90%]">
               <p className="text-gray-300 text-xl">
                 Utilizes magnetic properties of ferrous materials.
@@ -50,14 +51,17 @@ export const MagneticSepSlide1 = () => {
                 Permanent magnets or electromagnets used based on requirement.
               </p>
             </div>
-
-            <div className="advantage-card p-6 rounded-lg delay-600 w-[90%] flex items-center justify-center">
-              <p className="text-gray-300 text-xl text-center">
-                Insert Image: Magnetic Separator Process Flow
-              </p>
-            </div>
-
           </div>
+
+          {/* Image */}
+          <div className="rounded-lg delay-600 w-[40%] flex items-center  justify-center ">
+            <img
+              src="/assets/magSep.png"
+              alt="Magnetic Separation"
+              className="rounded-lg shadow-lg opacity-90 max-h-[400px] object-cover p-32"
+            />
+          </div>
+
         </div>
 
       </div>

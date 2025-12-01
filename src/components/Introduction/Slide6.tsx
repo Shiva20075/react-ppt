@@ -16,7 +16,7 @@ Recycling Process Overview          </h1>
         </div>
 
         {/* Points Section */}
-        <div className="flex justify-center px-32 pt-32 pb-10">
+        <div className="flex justify-left px-32 pt-48 pb-10 ">
           <div className="grid grid-cols-1 gap-6 w-full max-w-5xl">
 
             <div className="advantage-card p-5 rounded-lg delay-100">
@@ -48,8 +48,20 @@ Recycling Process Overview          </h1>
                  Recovery of metals and reuse
               </p>
             </div>
-
+ 
           </div>
+            <div className="w-1/2 flex justify-end relative -mt-64 -ml-32">
+            <div className="absolute right-0 top-1/20 -translate-y-1/2">
+              <div className="rounded-xl border-4 border-yellow-400">
+                <img
+                  src="/assets/flow.png"
+                  alt="E-Waste Toxins"
+                  className="w-96 opacity-90 rounded-lg "
+                />
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

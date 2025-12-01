@@ -18,7 +18,7 @@ export function DensitySep3() {
         </div>
 
         {/* Points + Image */}
-        <div className="flex px-24 pt-12 pb-10 gap-10 justify-between pt-48 items-start relative z-10">
+        <div className="flex px-24 pt-12 pb-10 gap-10 justify-between pt-48 pr-64 pl-48 items-start relative z-10">
 
           {/* LEFT POINTS */}
           <div className="grid grid-cols-1 gap-6 w-[60%]">
@@ -55,11 +55,11 @@ export function DensitySep3() {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="flex items-center justify-center w-[30%]">
+          <div className="flex items-center justify-center w-[30%] -mt-20 ml-32">
             <img
-              src="/assets/hydro-air.webp"
+              src="/assets/den2.png"
               alt="Hydrocyclone and Air Classifier"
-              className="rounded-lg shadow-xl w-[260px] h-auto"
+              className="rounded-lg shadow-xl w-128 h-auto"
             />
           </div>
 

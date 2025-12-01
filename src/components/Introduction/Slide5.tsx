@@ -9,7 +9,7 @@ export function IntroSlide5() {
         <div className="tech-circle tech-circle-2"></div>
 
         {/* Header */}
-        <div className="px-16 pt-32">
+        <div className="px-16 pt-48">
           <h1 className="section-title text-4xl mb-2 text-blue-200 font-bold">
             Need for Separation Techniques
           </h1>

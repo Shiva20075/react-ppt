@@ -51,12 +51,14 @@ export const Optical1 = () => {
               </p>
             </div>
 
-            <div className="advantage-card p-6 rounded-lg delay-600 w-[90%] flex items-center justify-center">
-              <p className="text-gray-300 text-xl text-center">
-                Insert Image: Optical Sorting Machine Schematic
-              </p>
-            </div>
-
+           
+          </div>
+           <div className="w-1/3 flex justify-center border-8 border-blue-900 -mt-8 ml-32 ">
+            <img
+              src="/assets/ops.png"
+              alt="E-waste Components"
+              className="rounded-lg shadow-lg opacity-90 max-h-[400px] object-cover"
+            />
           </div>
         </div>
 

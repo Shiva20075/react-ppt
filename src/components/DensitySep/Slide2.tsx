@@ -18,7 +18,7 @@ export function DensitySep2() {
         <div className="flex px-24 pt-8 pb-10 gap-10 justify-between items-start">
 
           {/* LEFT: Points (width reduced) */}
-          <div className="grid grid-cols-1 gap-6 pt-32 w-[55%]">
+          <div className="grid grid-cols-1 gap-6 pt-32 pl-32 w-[55%]">
             <div className="advantage-card p-5 rounded-lg delay-100 bg-neutral-900">
               <p className="text-gray-300 text-xl">
                   Water or air used as fluid medium 
@@ -52,10 +52,12 @@ export function DensitySep2() {
           
           </div>
 
-          {/* RIGHT: Image Area (empty for now) */}
-          <div className="w-[35%] h-full pt-32 flex items-center justify-center">
-            {/* Add image later here */}
-            {/* <img src="/assets/LCD.webp" className="w-80 rounded-lg shadow-xl" /> */}
+            <div className="w-2/3 flex justify-center border-8 border-blue-900 mt-32  ml-32 ">
+            <img
+              src="/assets/den3.png"
+              alt="E-waste Components"
+              className="rounded-lg shadow-lg opacity-90 max-h-[400px] object-cover "
+            />
           </div>
 
         </div>

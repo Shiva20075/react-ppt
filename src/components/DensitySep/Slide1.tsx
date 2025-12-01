@@ -47,12 +47,13 @@ Insert diagram: Sink-float density separation setup.              </p>
           
           </div>
 
-          {/* RIGHT: Image Area (empty for now) */}
-          <div className="w-[35%] h-full pt-32 flex items-center justify-center">
-            {/* Add image later here */}
-            {/* <img src="/assets/LCD.webp" className="w-80 rounded-lg shadow-xl" /> */}
+         <div className="w-2/3 flex justify-center border-8 border-blue-900  ml-32 ">
+            <img
+              src="/assets/den.png"
+              alt="E-waste Components"
+              className="rounded-lg shadow-lg opacity-90 max-h-[400px] object-cover "
+            />
           </div>
-
         </div>
       </div>
     </section>

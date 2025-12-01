@@ -18,7 +18,7 @@ export const Eddy2 = () => {
         </div>
 
         {/* MAIN CONTENT */}
-        <div className="flex justify-start w-full pt-32 px-16 z-10">
+        <div className="flex justify-start w-full pt-32 px-16 pl-32 z-10">
           <div className="grid grid-cols-1 gap-6 w-full max-w-4xl">
 
             <div className="advantage-card delay-100">
@@ -51,12 +51,15 @@ export const Eddy2 = () => {
               </p>
             </div>
 
-            <div className="advantage-card delay-600 flex items-center justify-center">
-              <p className="text-gray-300 text-xl text-center">
-                Insert Diagram: Industrial Eddy Current Separator Schematic
-              </p>
-            </div>
+           
 
+          </div>
+          <div className="w-1/3 flex justify-center border-8 -mt-8 ml-32 ">
+            <img
+              src="/assets/eddy2.png"
+              alt="E-waste Components"
+              className="rounded-lg shadow-lg opacity-90 max-h-[400px] object-cover"
+            />
           </div>
         </div>
       </div>
