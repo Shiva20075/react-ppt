@@ -13,7 +13,7 @@ export const Optical1 = () => {
         {/* Header */}
         <div className="px-16 pt-16">
           <h1 className="section-title text-4xl pt-16 text-blue-200 font-bold">
-            Optical Sorting – Working Principle
+            Introduction to Hydrometallurgical Extraction
           </h1>
         </div>
 
@@ -23,40 +23,46 @@ export const Optical1 = () => {
 
             <div className="advantage-card p-6 rounded-lg delay-100 w-[90%]">
               <p className="text-gray-300 text-xl">
-                Based on detection of optical properties like color, transparency, and reflectivity.
+                Hydrometallurgy is a method of extracting metals using water-based chemical solutions.
               </p>
             </div>
 
             <div className="advantage-card p-6 rounded-lg delay-200 w-[90%]">
               <p className="text-gray-300 text-xl">
-                Uses high-speed cameras, lasers, and advanced sensors.
+                It is part of extractive metallurgy and an alternative to pyrometallurgy, which relies on high temperatures.
               </p>
             </div>
 
             <div className="advantage-card p-6 rounded-lg delay-300 w-[90%]">
               <p className="text-gray-300 text-xl">
-                AI algorithms classify materials and activate air jets for separation.
+                Metal-containing minerals are dissolved using selected chemical reagents .
               </p>
             </div>
 
             <div className="advantage-card p-6 rounded-lg delay-400 w-[90%]">
               <p className="text-gray-300 text-xl">
-                A non-contact and highly precise sorting method.
+                The dissolved metals are later purified and separated from the solution through processes like solvent extraction and precipitation.
               </p>
             </div>
 
             <div className="advantage-card p-6 rounded-lg delay-500 w-[90%]">
               <p className="text-gray-300 text-xl">
-                Effective for sorting plastics, PCBs, and various non-metallic materials.
+                Hydrometallurgy is effective for low-grade and complex ores where metals occur in small amounts or mixed forms.
               </p>
             </div>
 
-           
+            <div className="advantage-card p-6 rounded-lg delay-600 w-[90%]">
+              <p className="text-gray-300 text-xl">
+                It consumes less energy, produces fewer emissions, and is considered environmentally friendly.
+              </p>
+            </div>
+
           </div>
-           <div className="w-1/3 flex justify-center border-8 border-blue-900 -mt-8 ml-32 ">
+
+          <div className="w-1/3 flex justify-center border-8 border-blue-900 -mt-8 ml-32">
             <img
-              src="/assets/ops.png"
-              alt="E-waste Components"
+              src="/assets/h2.png"
+              alt="Hydrometallurgy"
               className="rounded-lg shadow-lg opacity-90 max-h-[400px] object-cover"
             />
           </div>

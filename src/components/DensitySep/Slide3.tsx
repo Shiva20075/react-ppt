@@ -1,70 +1,103 @@
 import "../../styles/DensitySep/slide3.css";
 
 export function DensitySep3() {
-  return (
-    <section data-slide="3">
-      <div className="slide-container">
+    return (
+        <section data-slide="2">
+            <div className="slide-container relative">
 
-        {/* Background */}
-        <div className="background-overlay"></div>
-        <div className="tech-circle tech-circle-1"></div>
-        <div className="tech-circle tech-circle-2"></div>
+                {/* Background */}
+                <div className="background-overlay"></div>
 
-        {/* Header */}
-        <div className="px-16 pt-12 relative z-10">
-          <h1 className="section-title text-4xl mb-2 text-blue-200 pt-32 font-bold">
-            Density-Based Methods – Equipment
-          </h1>
-        </div>
+                {/* Header */}
+                <div className="px-16 pt-32 relative z-20">
+                    <h1 className="section-title text-4xl pt-20 mb-6 text-blue-200 font-bold">
+                        Hydrometallurgy Recovery Data
+                    </h1>
+                </div>
 
-        {/* Points + Image */}
-        <div className="flex px-24 pt-12 pb-10 gap-10 justify-between pt-48 pr-64 pl-48 items-start relative z-10">
+                {/* TABLE CENTERED */}
+                <div className="table-wrapper relative z-20">
+                    <div className="recovery-table-container">
+                        <table className="recovery-table">
+                            <thead>
+                                <tr>
+                                    <th>Metal</th>
+                                    <th>Hydrometallurgical Method</th>
+                                    <th>Recovery %</th>
+                                    <th>Research Paper</th>
+                                </tr>
+                            </thead>
 
-          {/* LEFT POINTS */}
-          <div className="grid grid-cols-1 gap-6 w-[60%]">
+                            <tbody>
+                                <tr>
+                                    <td>Gold (Au)</td>
+                                    <td>Cyanide Leaching (CIL/CIP)</td>
+                                    <td>90–97%</td>
+                                    <td>Marsden & House (2006)</td>
+                                </tr>
 
-            <div className="advantage-card delay-100">
-              <p className="text-gray-300 text-xl">
-                Hydrocyclones use centrifugal force for density segregation.
-              </p>
+                                <tr>
+                                    <td>Gold (Au)</td>
+                                    <td>Thiosulfate Leaching</td>
+                                    <td>70–90%</td>
+                                    <td>Xu et al., Hydromet. (2019)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Copper (Cu)</td>
+                                    <td>Acid Leaching (Oxide Ores)</td>
+                                    <td>85–95%</td>
+                                    <td>Habashi, Copper Metallurgy (2011)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Copper (Cu)</td>
+                                    <td>Ammoniacal Leaching</td>
+                                    <td>60–80%</td>
+                                    <td>Gupta & Mukherjee (1990)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Silver (Ag)</td>
+                                    <td>Cyanide Leaching of Silver Ores</td>
+                                    <td>75–95%</td>
+                                    <td>K. Osseo-Asare (1991)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Nickel (Ni)</td>
+                                    <td>HPAL (Laterite Ores)</td>
+                                    <td>92–98%</td>
+                                    <td>Dalvi et al., HPAL Review (2004)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Cobalt (Co)</td>
+                                    <td>HPAL / Acid Leaching</td>
+                                    <td>85–95%</td>
+                                    <td>Habashi, EM Review (2010)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Zinc (Zn)</td>
+                                    <td>Acid Leaching of Sphalerite</td>
+                                    <td>90–98%</td>
+                                    <td>Crundwell et al. (2011)</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Uranium (U)</td>
+                                    <td>Acid or Alkaline Leaching</td>
+                                    <td>85–95%</td>
+                                    <td>IAEA Report (2008)</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+
             </div>
-
-            <div className="advantage-card delay-200">
-              <p className="text-gray-300 text-xl">
-                Shaking tables separate via stratification under vibration.
-              </p>
-            </div>
-
-            <div className="advantage-card delay-300">
-              <p className="text-gray-300 text-xl">
-                Air classifiers sort particles in an upward air stream.
-              </p>
-            </div>
-
-            <div className="advantage-card delay-400">
-              <p className="text-gray-300 text-xl">
-                Flotation tanks assist in recovering light polymers or metals.
-              </p>
-            </div>
-
-            <div className="advantage-card delay-500">
-              <p className="text-gray-300 text-xl">
-                Optimized for particle size and density range in e-waste.
-              </p>
-            </div>
-          </div>
-
-          {/* RIGHT IMAGE */}
-          <div className="flex items-center justify-center w-[30%] -mt-20 ml-32">
-            <img
-              src="/assets/den2.png"
-              alt="Hydrocyclone and Air Classifier"
-              className="rounded-lg shadow-xl w-128 h-auto"
-            />
-          </div>
-
-        </div>
-      </div>
-    </section>
-  );
+        </section>
+    );
 }

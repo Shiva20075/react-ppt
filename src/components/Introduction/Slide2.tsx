@@ -33,11 +33,16 @@ export function IntroSlide2() {
             </div>
 
             <div className="advantage-card p-5 rounded-lg delay-300 bg-neutral-900">
-              <p className="text-gray-300 text-xl">
-                Contains valuable metals like
-                <span className="text-orange-700"> copper</span>,
-                <span className="text-yellow-500"> gold</span>, silver, palladium.
-              </p>
+<p className="text-gray-300 text-xl">
+  Contains valuable metals like
+  <span className="text-orange-600 font-semibold"> copper</span>,
+  <span className="text-yellow-400 font-semibold"> gold</span>,
+  <span className="text-gray-300 font-semibold"> silver</span>,
+  <span className="text-purple-300 font-semibold"> palladium</span>.
+</p>
+
+
+
             </div>
 
             <div className="advantage-card p-5 rounded-lg delay-400 bg-neutral-900">

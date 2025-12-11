@@ -11,41 +11,33 @@ export const IntroSlide7 = () => {
         <div className="tech-circle tech-circle-2"></div>
 
         {/* Title */}
-        <h1 className="section-title text-5xl font-bold mb-12">
-          Mechanical Separation Techniques
+        <h1 className="section-title pt-32 text-5xl font-bold mb-12">
+          Metallurgical Processes
         </h1>
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 gap-4 pt-20 w-max-5xl px-64">
+
           <div className="advantage-card p-6 delay-100">
-            <h3 className="font-semibold text-xl mb-2">Magnetic Separation</h3>
-            <p>Uses magnetic properties to separate ferromagnetic and non-magnetic parts.</p>
+            <h3 className="font-semibold text-xl mb-2">Hydrometallurgy</h3>
+            <p>Extraction of metals using aqueous solutions through leaching and precipitation.</p>
           </div>
 
           <div className="advantage-card p-6 delay-200">
-            <h3 className="font-semibold text-xl mb-2">Eddy Current Method</h3>
-            <p>Separates conductive metals using induced currents.</p>
+            <h3 className="font-semibold text-xl mb-2">Pyrometallurgy</h3>
+            <p>High-temperature processes such as roasting, smelting, and refining.</p>
           </div>
 
           <div className="advantage-card p-6 delay-300">
-            <h3 className="font-semibold text-xl mb-2">Density-Based Sorting</h3>
-            <p>Uses differences in material density for effective separation.</p>
+            <h3 className="font-semibold text-xl mb-2">Gold Extraction</h3>
+            <p>Commonly involves cyanidation, leaching, and electro-winning processes.</p>
           </div>
 
           <div className="advantage-card p-6 delay-400">
-            <h3 className="font-semibold text-xl mb-2">Optical Sorting</h3>
-            <p>Color / reflectivity-based material recognition and separation.</p>
+            <h3 className="font-semibold text-xl mb-2">Copper Extraction</h3>
+            <p>Includes crushing, froth flotation, smelting, and electrolytic refining.</p>
           </div>
 
-          <div className="advantage-card p-6 delay-500">
-            <h3 className="font-semibold text-xl mb-2">Eco-Friendly</h3>
-            <p>Uses non-chemical methods, safe for environment & operators.</p>
-          </div>
-
-          <div className="advantage-card p-6 delay-600">
-            <h3 className="font-semibold text-xl mb-2">Cost-Effective & Scalable</h3>
-            <p>Suitable for large-scale preprocessing before metallurgical recovery.</p>
-          </div>
         </div>
       </div>
     </section>
